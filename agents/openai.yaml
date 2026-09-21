@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 辅助做 PPT"
+  short_description: "从主题和资料生成大纲、逐页内容、原创配图与可编辑PPT，并检查交付质量"
+  default_prompt: "使用 $ai-ppt-workflow，根据我的主题和资料制作适合目标受众的 PPT；先梳理需求，再完成大纲、内容、配图、排版和交付检查。"

@@ -10,6 +10,8 @@
 - 生成原创配图提示词和视觉素材
 - 检查事实、数字、可编辑性和交付文件
 
+如果使用的平台不支持 Codex Skill，可以直接复制 [`PROMPT.md`](PROMPT.md)。它把完整工作流整理成一条自包含的主提示词，不依赖技能目录或其他引用文件。
+
 工作流会区分确认事实、计划目标、教学设定和待确认项。参考教程中的方法可以迁移，但原教程图片不会作为默认素材；“校园旧物交换周”也不会成为新任务的默认案例。
 
 ## 安装
@@ -36,6 +38,7 @@ C:\Users\你的用户名\.codex\skills\ai-ppt-workflow\
 ## 文件
 
 - `SKILL.md`：工作流入口、任务路由与交付规则
+- `PROMPT.md`：可以直接复制到通用 AI 对话中的纯提示词版
 - `agents/openai.yaml`：Codex 中显示的名称和默认调用提示
 - `references/content-and-evidence.md`：资料、数字、逐页内容与提示词规则
 - `references/visual-prompts.md`：原创配图、改图、透明素材、动态封面和 3D 的规则

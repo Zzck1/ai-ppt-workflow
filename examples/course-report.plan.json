@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "topic": "课程练习：如何解释实验耗时",
+  "audience": "首次做数据汇报的本科生",
+  "goal": "区分比较结果与因果结论",
+  "delivery": "现场讲解后可阅读，约3分钟",
+  "slide_count": 3,
+  "design": {
+    "aspect_ratio": "16:9",
+    "font": "Microsoft YaHei",
+    "title_pt": 32,
+    "body_pt": 24,
+    "caption_pt": 14,
+    "background": "#FFFFFF",
+    "text": "#172B4D",
+    "accent": "#005A9C"
+  },
+  "facts": [
+    {"id": "F01", "status": "scenario", "label": "方法A耗时", "value": 12, "unit": "分钟", "period": "一次教学模拟", "scope": "单次运行，不代表总体", "source": "本文件自造教学数据，无外部实证来源"},
+    {"id": "F02", "status": "scenario", "label": "方法B耗时", "value": 9, "unit": "分钟", "period": "一次教学模拟", "scope": "单次运行，不代表总体", "source": "本文件自造教学数据，无外部实证来源"}
+  ],
+  "slides": [
+    {"id": "P01", "title": "实验耗时的比较", "message": "教学模拟只能演示比较方法", "body": ["教学模拟，非真实实验结果", "观察耗时差异，并保留解释边界"], "fact_ids": [], "visual": "原生标题与正文", "notes": "这是课程练习，数据不用于证明方法优劣。"},
+    {"id": "P02", "title": "两种方法的单次耗时", "message": "模拟中的方法B耗时较短", "body": ["教学模拟，单位：分钟", "一次运行无法证明稳定优势"], "fact_ids": ["F01", "F02"], "visual": "原生柱形图，纵轴从零开始", "chart": {"type": "column", "unit": "分钟", "categories": ["方法A", "方法B"], "values": [12, 9], "fact_ids": ["F01", "F02"]}, "notes": "图表数据与事实记录共用同一份数值。"},
+    {"id": "P03", "title": "比较结果的解释边界", "message": "稳定结论需要重复试验与条件控制", "body": ["重复测量，记录波动", "统一设备、任务与计时方法", "教学模拟，尚无稳定性或因果证据"], "fact_ids": [], "visual": "原生正文，突出限制条件", "notes": "下一步是设计检验，不把单次差异写成因果。"}
+  ]
+}

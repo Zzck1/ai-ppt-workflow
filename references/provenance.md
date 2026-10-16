@@ -12,3 +12,13 @@
 “校园旧物交换周”及其人数、物品数量、预算和时间安排，是为上述教程新设计的教学案例。它不是原参考教程中的案例，也不是真实活动事实。新任务应使用自己的主题和资料，不自动继承这些设定。
 
 原参考资料里的图片、截图与二维码没有纳入本技能。技能本身不依赖这些链接在线可用；未来若用户要求逐段比较原文，需重新读取对应来源，不能把这里的来源说明视为完整原文。
+
+## 本次升级的上游参考与许可
+
+2026-10-16 研究 [Hugo He 的 PPT Master](https://github.com/hugohe3/ppt-master)，固定参考提交 [8070d3d](https://github.com/hugohe3/ppt-master/tree/8070d3df1f6f54b5fb60a9ae66e79c664f050212)，Skill v6.7.0。上游 [LICENSE](https://github.com/hugohe3/ppt-master/blob/8070d3df1f6f54b5fb60a9ae66e79c664f050212/LICENSE) 为 MIT，版权属于 Hugo He（2025–2026）。
+
+有针对性参考 `references/plan-core.md` 的沟通目标与逐页消息、`references/strategist.md` 的规划职责、`workflows/generate-pptx.md` 的分阶段交接、`references/native-data-interface.md` 的图表数据同步，以及 `references/visual-review.md` 的具体视觉问题与复查思路。本仓库将方法独立改写为轻量记录和标准库检查器；未复制上游代码、提示词正文、图片、模板或 guard，也不声称具备其 SVG 转换、原生动画、音频等能力。上游的工具名不等于本仓库可调用的工具。
+
+原目标仓库在本次升级前未提供 LICENSE；本次不擅自替维护者选择开源许可。公开可读不等于获得任意再分发授权。若以后实际引入 MIT 代码或实质性文本，应保留完整版权与 MIT 许可声明；图片、字体、图标和第三方模板还需分别核对许可，不能由仓库 MIT 推断所有素材均可复用。
+
+本次未重新访问上述飞书教程；“当时读取”的范围属于原项目保留的来源记录，不代表本次验证过全文或当前产品功能。
